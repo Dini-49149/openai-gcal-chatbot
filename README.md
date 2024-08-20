@@ -11,14 +11,6 @@ This project is an interactive chatbot application built with Flask that integra
 - **Update Event**: Modify existing events in your Google Calendar.
 - **Delete Event**: Remove events from your Google Calendar.
 
-## Demo
-
-Below is a video showcasing the demo of the project in action:
-
-<video width="800" height="450" controls>
-  <source src="demo/demo.mp4" type="video/mp4">
-</video>
-
 ## Project Structure
 
 ```
@@ -28,9 +20,10 @@ Below is a video showcasing the demo of the project in action:
 ├── client_secret.json # Contains Google OAuth credentials (not included in the repository)
 ├── app.py # Main Flask application code
 ├── requirements.txt # Python dependencies
+
 ```
 
-### Prerequisites
+## Prerequisites
 
 1. **Google API Credentials**: Create OAuth credentials for the Google Calendar API by following the steps below:
    - Go to the [Google Cloud Console](https://console.cloud.google.com/).
@@ -42,7 +35,7 @@ Below is a video showcasing the demo of the project in action:
    - For more detailed instructions, refer to the [Google Calendar API Python Quickstart](https://developers.google.com/calendar/quickstart/python).
 2. **OpenAI API Key**: Sign up on [OpenAI](https://openai.com) and get your API key. Store this key in a `api_key.json` file.
 
-### Installation
+## Installation
 
 1. Clone the repository:
    ```bash
@@ -62,7 +55,7 @@ Below is a video showcasing the demo of the project in action:
    ```
 4. Place your `client_secret.json` and `api_key.json` in the project root directory.
 
-### Running the Application
+## Running the Application
 
 1. Run the Flask application:
   ```bash
@@ -70,21 +63,21 @@ Below is a video showcasing the demo of the project in action:
    ```
 2. Open your browser and navigate to `http://localhost:5000` to interact with the chatbot.
 
-### Google Calendar Authentication
+## Google Calendar Authentication
 
 When accessing Google Calendar features for the first time, you'll be redirected to authenticate with your Google account. Once authenticated, a token will be stored locally to manage subsequent requests.
 
-### Future Enhancements
+## Future Enhancements
 
 - **Improve User Interface**: Enhance the overall user experience with a more intuitive and interactive design.
 - **Support Multiple Calendar Integrations**: Expand the application to support integration with multiple calendars and accounts.
 - **Extend Chatbot Functionality**: Add more advanced features to the chatbot to handle a wider variety of complex queries.
 
-### Contributing
+## Contributing
 
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
-### License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
